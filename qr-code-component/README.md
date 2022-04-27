@@ -15,6 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
+<img src="C:\Users\Erins Desktop\Downloads\frontend-mentor-challenge\qr-code-component\screenshot.png" style="zoom:80%;" />
+
 ## My process
 
 ### Built with
@@ -22,7 +24,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ### What I learned
+
+I learned how to always display a block in the middle of screen no matter how screen size changes.
+
+```css
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
