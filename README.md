@@ -4,7 +4,7 @@ This project includes my solution to challenges from [Frontend Mentor](https://w
 
 #### Newbie
 
-- QR code component
+- [QR code component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/qr-code-component)
 - NFT preview card component
 
 #### Junior
