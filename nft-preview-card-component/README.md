@@ -23,6 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
+![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/nft-preview-card-component/screenshot.png)
 
 ## My process
 
@@ -49,6 +50,8 @@ Using CSS custom properties (variables)
 ```
 
 How to add hover effect and color overlay on the image:
+
+![hover-effect](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/nft-preview-card-component/hover.png)
 
 ```css
 .image__overlay{
