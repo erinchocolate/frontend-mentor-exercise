@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --clr-white: hsl(0 0% 100%);
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+  --clr-more-pale-blue: hsl(225, 100%, 98%);
+  --clr-normal-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+
+  --fw-500: 500;
+  --fw-700: 700;
+  --fw-900: 900;
+}
+
+/* Box sizing rules and remove default margin and padding */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background: var(--clr-pale-blue);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: "Red Hat", sans-serif;
+  font-size: 16px;
+  font-weight: var(--fw-500);
+  color: var(--clr-normal-blue);
+  line-height: 1.6;
+
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: var(--fw-900);
+  color: var(--clr-dark-blue);
+}
+
+/* block */
+.card{
+  margin: 100px auto;
+  width: 450px;
+  overflow: hidden;
+}
+
+/* composition - layout*/
+.grid-flow {
+  display: grid;
+  gap: var(--gap, 1rem);
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  gap: var(--gap, 1rem);
+  align-items: center;
+}
+
+/* utility - styling*/
+
+.padding-horizontal {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.text-dark-blue {
+  color: var(--clr-dark-blue);
+}
+
+.text-bright-blue {
+  color: var(--clr-bright-blue);
+}
+
+.bg-white {
+  background-color: var(--clr-white);
+}
+
+.bg-more-pale-blue {
+  background-color: var(--clr-more-pale-blue);
+}
+
+.bg-normal-blue {
+  color: var(--clr-normal-blue);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: start;
+}
+
+.text-align-right {
+  text-align: end;
+}
+
+.fw-extra-bold {
+  font-weight: var(--fw-900);
+}
+
+.fw-bold {
+  font-weight: var(--fw-700);
+}
+
+.br-1 {
+  border-radius: 0.5rem;
+}
+
+.br-2 {
+  border-radius: 1rem;
+}
