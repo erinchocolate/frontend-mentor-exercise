@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/order-summary-component/screenshot.png)
 
 ## My process
 
