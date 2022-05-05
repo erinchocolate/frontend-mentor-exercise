@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+$dark-cyan:hsl(185, 75%, 39%);
+$dark-desaturated-blue:hsl(229, 23%, 23%);
+$dark-grayish-blue:hsl(227, 10%, 46%);
+$dark-gray:hsl(0, 0%, 59%);
+$light-gray:hsl(228, 9%, 92%);
+$white:hsl(360, 100%, 100%);
+$font-stack: Kumbh Sans, sans-serif;
+$font-small-size:10px;
+$font-base-size:14px;
+$font-extra-size:18px;
+$font-base-weight:400;
+$font-extra-weight:700;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  list-style: none;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: $font-base-size;
+  font-weight: $font-base-weight;
+  line-height: 1.6;
+  background: url("images/bg-pattern-bottom.svg"), $dark-cyan;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.card {
+  margin: 10rem auto;
+  background-color: $white;
+  color: $dark-grayish-blue;
+  height: 374px;
+  width: 350px;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  &__img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  &__bg {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  &__profile {
+    position: absolute;
+    border-radius: 50%;
+    border: 0.2rem solid $white;
+    top:100%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.card__user {
+  margin: 3rem 4rem 0 4rem;
+  display: grid;
+  grid-template-columns: 5rem 1rem;
+  grid-template-rows: auto;
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 0.1rem;
+}
+
+.card__name {
+  font-weight: $font-extra-weight;
+  font-size: $font-extra-size;
+  color: $dark-desaturated-blue;
+  justify-self: end;
+}
+
+.card__age {
+  font-size: $font-extra-size;
+  justify-self: start;
+}
+
+.card__location {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.card__title {
+  margin-top: 1em;
+  font-size: $font-extra-size;
+  font-weight: $font-extra-weight;
+  color: $dark-desaturated-blue;
+}
+
+.card__label {
+  font-size: $font-small-size;
+}
+
+.card__stats {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+
+  &__box {
+    display: grid;
+    place-items: center;
+  }
+}
+
+.box1 {
+  grid-column: 2;
+  justify-self: center;
+}
