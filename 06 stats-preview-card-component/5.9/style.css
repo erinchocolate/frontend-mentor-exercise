@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+html{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-primary-600:hsl(233, 47%, 7%);
+  --clr-primary-500:hsl(244, 38%, 16%);
+  --clr-primary-400:rgb(170, 92, 219);
+  --clr-neutral-100:hsl(0, 0%, 100%);
+  --clr-neutral-200:hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-300:hsla(0, 0%, 100%, 0.6);
+  --ff-primary:'Inter', sans-serif;
+  --ff-accent:'Lexend Deca', sans-serif;
+  --ff-primary-weight:400;
+  --ff-accent-weight:700;
+}
+
+body{
+  background-color: var(--clr-primary-600);
+  font-family: var(--ff-primary);
+  color: var(--clr-neutral-200);
+  font-weight: var(--ff-primary-weight);
+  line-height: 1.6;
+}
+
+.card {
+  background-color: var(--clr-primary-500);
+  border-radius: 1em;
+  margin: 10%;
+}
+
+.card__image {
+  max-width: 100%;
+}
+
+.card__content{
+  font-size: 1rem;
+  color: var(--clr-neutral-100);
+  font-weight: var(--ff-primary);
+  padding: 1em;
+  margin: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.content__title{
+  font-size: 2rem;
+  font-weight: var(--ff-accent-weight);
+}
+
+.content__title span{
+  color: var(--clr-primary-400);
+}
+
+.content__intro {
+  color: var(--clr-neutral-200);
+}
+
+.content__stats {
+  font-size: 1.5rem;
+  font-weight: var(--ff-accent-weight);
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em;
+}
+
+.content__stats span {
+  font-size: 1rem;
+  font-family: var(--ff-accent);
+  color: var(--clr-neutral-200);
+  font-weight: var(--ff-primary-weight);
+}
+
+.card__image--mobile{
+  display: block;
+}
+
+.card__image--desktop{
+  display: none;
+}
+
+@media only screen and (min-width: 35em) and (max-width: 45em) {
+
+  .card {
+    display: flex;
+    align-items: center;
+  }
+
+  .card__content {
+    text-align: start;
+    order:0;
+    padding: 2em;
+    margin: 2em;
+  }
+
+  .stats {
+    display: flex;
+  }
+
+  .card__image--mobile {
+    display: none;
+  }
+
+  .card__image--desktop{
+    display: none;
+  }  
+}
+
+@media only screen and (min-width: 45em) {
+
+  .card {
+    display: flex;
+    align-items: center;
+  }
+
+  .card__image {
+    order: 1;
+    border-radius: 0 1em 1em 0;
+    overflow: hidden;
+  }
+
+  .card__content {
+    flex: 50%;
+    text-align: start;
+    order:0;
+    display: grid;
+  }
+  
+  .stats {
+    display: flex;
+  }
+
+  .card__image--mobile {
+    display: none;
+  }
+
+  .card__image--desktop{
+    display: block;
+  }  
+}
