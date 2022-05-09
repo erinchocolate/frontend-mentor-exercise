@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/nft-preview-card-component/screenshot.png)
+![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/02%20nft-preview-card-component/screenshot.png)
 
 ## My process
 
