@@ -5,13 +5,13 @@ This project includes my solution to challenges from [Frontend Mentor](https://w
 #### Newbie
 
 - [QR code component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/01%20qr-code-component)
-- [NFT preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/nft-preview-card-component)
-- [Order summary component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/order-summary-component)
-- [Profile card component]
+- [NFT preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/02%20nft-preview-card-component)
+- [Order summary component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/03%20order-summary-component)
+- [Profile card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/04%20profile-card-component)
 - [Social proof section]
 - [3-column preview card component]
 - [Four card feature section]
-- [Stats preview card component]
+- [Stats preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component)
 - [Huddle landing page with a single introductory section]
 - [Meet landing page]
 - [Equalizer landing page]
