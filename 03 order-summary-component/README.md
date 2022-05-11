@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Link
 
-[Order summary card](https://app.netlify.com/sites/erinchocolate3/overview)
+[Order summary card](https://erinchocolate3.netlify.app/)
 
 ## My process
 
