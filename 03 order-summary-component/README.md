@@ -23,7 +23,10 @@ Users should be able to:
 
 ### Link
 
-[Order summary card](https://erinchocolate3.netlify.app/)
+- Solution URL: 
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/03%20order-summary-component/%231)
+
+- Live Site URL: [Order summary card](https://erinchocolate3.netlify.app/)
 
 ## My process
 

@@ -21,7 +21,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Link
 
-[Profile card component](https://erinchocolate4.netlify.app/)
+- Solution URL: 
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/04%20profile-card-component/%231)
+  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/04%20profile-card-component/%232)
+- Live Site URL: [Profile card component](https://erinchocolate4.netlify.app/)
 
 ## My process
 

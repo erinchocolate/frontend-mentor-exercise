@@ -22,7 +22,11 @@ Users should be able to:
 
 ### Link
 
-[Stats preview card component](https://erinchocolate6.netlify.app/)
+- Solution URL: 
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component/%231)
+  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component/%232)
+
+- Live Site URL: [Stats preview card component](https://erinchocolate6.netlify.app/)
 
 ## My process
 
