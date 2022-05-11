@@ -6,7 +6,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -21,9 +21,9 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Link
 
-![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/order-summary-component/screenshot.png)
+[Order summary card](https://app.netlify.com/sites/erinchocolate3/overview)
 
 ## My process
 

@@ -5,7 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -13,9 +13,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
+### Link
 
-![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/01%20qr-code-component/screenshot.png)
+[QR code component](https://erinchocolate1.netlify.app/)
 
 ## My process
 

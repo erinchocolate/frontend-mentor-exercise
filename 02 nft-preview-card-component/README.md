@@ -6,7 +6,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -21,9 +21,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Link
 
-![screenshot](https://github.com/erinchocolate/frontend-mentor-challenge/blob/master/02%20nft-preview-card-component/screenshot.png)
+[NFT preview card component](https://erinchocolate2.netlify.app/)
 
 ## My process
 
