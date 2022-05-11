@@ -6,7 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,9 +19,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Build out the project to the designs provided
 
-### Screenshot
+### Link
 
-
+[Profile card component](https://erinchocolate4.netlify.app/)
 
 ## My process
 
@@ -64,7 +64,6 @@ $dark-desaturated-blue:hsl(229, 23%, 23%);
 
 ### Continued study
 
-- How to put multiple images and color on the background
 - Media query and mobile first 
 
 ### Useful resources

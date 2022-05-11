@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  background: url("../assets/bg-pattern-top.svg") right 50vw bottom 30vh no-repeat, url("../assets/bg-pattern-bottom.svg") left 50vw top 30vh no-repeat, hsl(185deg, 75%, 39%);
+}
+
+.card {
+  background-color: hsl(0deg, 100%, 100%);
+  margin: 10em auto;
+  border-radius: 1em;
+  width: 350px;
+  height: 374px;
+}
+.card__img {
+  position: relative;
+}
+.card__bg {
+  position: relative;
+  border-radius: 1em 1em 0 0;
+}
+.card__profile {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 0.2rem solid hsl(0deg, 100%, 100%);
+}
+
+.info {
+  text-align: center;
+  margin: 2.5em 0 1.5em 0;
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 59%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.info__name {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+.info__age {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid hsl(228deg, 9%, 92%);
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em;
+  text-align: center;
+}
+
+.stats__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.number {
+  font-size: 1.2rem;
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+
+.name {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 0.8rem;
+}
