@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --clr-white: hsl(0 0% 100%);
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+  --clr-more-pale-blue: hsl(225, 100%, 98%);
+  --clr-normal-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+
+  --font-base-weight: 500;
+  --font-extra-weight: 700;
+  --font-heavy-weight: 900;
+
+  --font-stack:"Red Hat", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--clr-pale-blue) url(/images/pattern-background-desktop.svg) no-repeat;
+  max-width: 1440px;
+}
+
+main {
+  margin:100px auto;
+  background-color: var(--clr-white);
+  border-radius: 1em;
+  min-width: 375px;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.card__text {
+  padding: 2em 3em;
+  font-family: var(--font-stack);
+  color: var(--clr-normal-blue);
+  font-weight: var(--font-base-weight);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  line-height: 1.6;
+}
+
+.card__intro {
+  text-align: center;
+}
+
+.card__intro h1 {
+  font-size: 1.75rem;
+  color: var(--clr-dark-blue);
+  font-weight: var(--font-heavy-weight);
+  margin-bottom: 0.5em;
+}
+
+.card__plan {
+  background-color: var(--clr-more-pale-blue);
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  border-radius: 1em;
+  gap: 1em;
+}
+
+.plan__price {
+  flex-grow: 2;
+}
+
+.card__plan h2 {
+  font-size:1rem;
+  color: var(--clr-dark-blue);
+  font-weight: var(--font-heavy-weight);
+}
+
+.plan__btn {
+  color: var(--clr-bright-blue);
+  font-weight: var(--font-extra-weight);
+  text-decoration: underline;
+  border: none;
+  background-color: var(--clr-more-pale-blue);
+  font-size: 0.9rem;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.plan__btn:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.card__btn {
+  font-weight: var(--font-heavy-weight);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  border: none;
+  color: var(--clr-white);
+  font-weight: var(--font-heavy-weight);
+  font-size: 0.9rem;
+}
+
+.btn--fade {
+  background-color: var(--clr-bright-blue);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.btn--fade:hover {
+  opacity: 0.6;
+}
+
+.btn--highlight {
+  color: var(--clr-normal-blue);
+  background-color: var(--clr-white);
+}
+
+.btn--highlight:hover {
+  color: var(--clr-dark-blue);
+}
