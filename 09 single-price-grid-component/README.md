@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-  - [#1 solution](https://your-solution-url.com)
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/09%20single-price-grid-component)
 
 - Live Site URL: [Single price grid component](https://erinchocolate9.netlify.app/)
 

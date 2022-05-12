@@ -12,6 +12,7 @@ This project includes my solution to challenges from [Frontend Mentor](https://w
 - [3-column preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/05%203-column-preview-card-component)
 - [Four card feature section](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/08%20four-card-feature-section)
 - [Stats preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component)
+- [Single price grid component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/09%20single-price-grid-component)
 - [Huddle landing page with a single introductory section]
 - [Meet landing page]
 - [Equalizer landing page]
