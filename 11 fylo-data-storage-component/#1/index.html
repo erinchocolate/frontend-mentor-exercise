@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Fylo data storage component</title>
+</head>
+
+<body>
+
+  <main class="box-flex">
+
+    <div class="dark-blue flow round-shape padding-horizontal">
+      <img class="padding-vertical" src="./images/logo.svg" alt="Fylo logo">
+      <div class="flex padding-vertical">
+        <div class="very-dark padding round"><img src="./images/icon-document.svg" alt="document"></div>
+        <div class="very-dark padding round"><img src="./images/icon-folder.svg" alt="folder"></div>
+        <div class="very-dark padding round"><img src="./images/icon-upload.svg" alt="upload"></div>    
+      </div>
+    </div>
+
+    <div class="flow relative">
+      <div class="dark-blue round padding-1 flex-col">
+        <p class="text-neutral-300 text-weight-400 text-size-300 center">You’ve used <span class="text-neutral-100 text-weight-700 ">815 GB</span> of your storage</p>
+        <div class="bar round">
+          <div class="progress">
+            <div class=""></div>
+          </div> 
+        </div>
+        <div class="flex space text-neutral-100 text-weight-700 text-size-300 padding-2">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+      </div>
+      <div class="flex absolute">
+        <div class="white-box">
+          <div class="text-size-500 text-neutral-400 text-weight-700">185</div>
+          <p class= "text-size-300 text-neutral-300 text-weight-700">GB Left</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
