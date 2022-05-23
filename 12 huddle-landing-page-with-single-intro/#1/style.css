@@ -1,0 +1,230 @@
+:root {
+  --clr-primary-400: hsl(257, 40%, 49%);
+  --clr-secondary-400: hsl(300, 69%, 71%);
+  --clr-neutral-100:rgb(255, 255, 255);
+
+  --ff-primary: "Open Sans", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
+
+  --fw-400: 400;
+  --fw-600: 600;
+
+  --fs-300: 0.6875rem;
+  --fs-400: 0.75rem;
+  --fs-500: 1.2rem;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  max-width: 1440px;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  display: grid;
+  place-content: center;
+
+  background: url("./images/bg-mobile.svg") no-repeat var(--clr-primary-400);
+
+  font-weight: var(--fw-400);
+  font-family: var(--ff-primary);
+  color: var(--clr-neutral-100);
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-500);
+}
+
+p {
+  font-size: var(--fs-400);
+}
+
+button {
+  font-size: var(--fs-300);
+  color: var(--clr-primary-400);
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  width: 8rem;
+  height: 2rem;
+}
+
+/* utilities */
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 1rem);
+}
+
+.padding {
+  padding: 0 1.5rem;
+}
+
+.width {
+  max-width: 50%;
+}
+
+.text-position {
+  text-align: center;
+}
+
+.white {
+  filter: invert(94%) sepia(0%) saturate(7500%) hue-rotate(104deg) brightness(110%) contrast(105%);
+}
+
+.hover:hover {
+  cursor: pointer;
+  filter: invert(87%) sepia(15%) saturate(6200%) hue-rotate(236deg) brightness(105%) contrast(111%);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--clr-secondary-400);
+}
+
+/* components */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+   'one'
+   'two'
+   'three'
+   'four'
+   'five'
+   'six';
+
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-items: center;
+}
+
+.section:nth-child(1) {
+  justify-self: start;
+  grid-area: one;
+}
+
+.section:nth-child(2) {
+  grid-area: two;
+}
+
+.section:nth-child(3) {
+  grid-area: three;
+}
+
+.section:nth-child(4) {
+  grid-area: four;
+}
+
+.section:nth-child(5) {
+  grid-area: five;
+}
+
+.section:nth-child(6) {
+  grid-area: six;
+}
+
+@media screen and (min-width: 38em) {
+  body {
+    background: url("./images/bg-desktop.svg") no-repeat var(--clr-primary-400);
+  }
+
+  .padding {
+  padding: 0 3rem;
+  }
+
+  .text-position {
+  text-align: start;
+  }
+
+  .grid {
+    grid-template-areas:
+     'one one .'
+     'two two three'
+     'two two four'
+     'two two five'
+     '. . six';
+    gap: none;
+    justify-items: start;
+  }
+
+  .section:nth-child(3) {
+    align-self: end;
+  }
+
+  .section:nth-child(6) {
+    justify-self: end;
+  }
+}
