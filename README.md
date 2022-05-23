@@ -18,6 +18,8 @@ This project includes my solution to challenges from [Frontend Mentor](https://w
 - [Equalizer landing page]
 
 #### Junior
+- [Testimonials grid section](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/10%20testimonials-grid-section)
+- [Fylo data storage component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/11%20fylo-data-storage-component)
 
 #### Intermediate
 
