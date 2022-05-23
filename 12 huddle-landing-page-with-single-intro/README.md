@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-  - [#1 solution](https://your-solution-url.com)
+  - [#1 solution]([https://your-solution-url.com](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/12%20huddle-landing-page-with-single-intro/%231))
 
 - Live Site URL: [Huddle landing page with single introductory section solution](https://erinchocolate12.netlify.app/)
 
