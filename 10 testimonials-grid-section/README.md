@@ -39,7 +39,7 @@ Users should be able to:
 
 ### What I learned
 
-How to use grid area and why it's useful:
+[How to use grid area and why it's useful](https://www.youtube.com/watch?v=duH4DLq5yoo&t=1070s):
 
 It's very easy to implement media query with grid area
 
