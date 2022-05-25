@@ -21,8 +21,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/11%20fylo-data-storage-component/%231)
+
+- Live Site URL: [Fylo data storage component](https://erinchocolate11.netlify.app/)
 
 ## My process
 
@@ -36,20 +38,18 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+How to make triangle shape:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.triangle {
+    border-top: 2rem solid var(--clr-neutral-100);
+    border-left: 2rem solid transparent;
+  }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+How to make gradient effect:
+
+```css
+background-image: linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%));
 ```
+
+How to put div on top of the other one using relative and absolute position

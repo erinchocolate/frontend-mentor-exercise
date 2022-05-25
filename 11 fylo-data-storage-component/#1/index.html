@@ -16,38 +16,36 @@
 
 <body>
 
-  <main class="box-flex">
-
-    <div class="dark-blue flow round-shape padding-horizontal">
-      <img class="padding-vertical" src="./images/logo.svg" alt="Fylo logo">
-      <div class="flex padding-vertical">
-        <div class="very-dark padding round"><img src="./images/icon-document.svg" alt="document"></div>
-        <div class="very-dark padding round"><img src="./images/icon-folder.svg" alt="folder"></div>
-        <div class="very-dark padding round"><img src="./images/icon-upload.svg" alt="upload"></div>    
+  <main class="box-grid">
+    <div class="box-1 dark-blue shape padding-32">
+      <img class="" src="./images/logo.svg" alt="Fylo logo">
+      <div class="flex margin-top">
+        <div class="very-dark round square"><img class="absolute-square" src="./images/icon-document.svg" alt="document"></div>
+        <div class="very-dark round square"><img class="absolute-square" src="./images/icon-folder.svg" alt="folder"></div>
+        <div class="very-dark round square"><img class="absolute-square" src="./images/icon-upload.svg" alt="upload"></div>    
       </div>
     </div>
 
-    <div class="flow relative">
-      <div class="dark-blue round padding-1 flex-col">
-        <p class="text-neutral-300 text-weight-400 text-size-300 center">You’ve used <span class="text-neutral-100 text-weight-700 ">815 GB</span> of your storage</p>
+    <div class="box-2 relative">
+      <div class="dark-blue round flex-col padding-32 padding-bottom">
+        <p class="text-neutral-300 text-weight-400 text-size-300 text-position">You’ve used <span class="text-neutral-100 text-weight-700">815 GB</span> of your storage</p>
         <div class="bar round">
-          <div class="progress">
-            <div class=""></div>
-          </div> 
+          <div class="progress"><div class="circle"></div></div> 
         </div>
-        <div class="flex space text-neutral-100 text-weight-700 text-size-300 padding-2">
+        <div class="flex space text-neutral-100 text-weight-700 text-size-300">
           <p>0 GB</p>
           <p>1000 GB</p>
         </div>
       </div>
-      <div class="flex absolute">
-        <div class="white-box">
+      
+      <div class="shape absolute">
+        <div class="flex white-box relative">
           <div class="text-size-500 text-neutral-400 text-weight-700">185</div>
-          <p class= "text-size-300 text-neutral-300 text-weight-700">GB Left</p>
-        </div>
+          <p class= "text-size-300 text-neutral-300 text-weight-700">GB Left</p> 
+          <div class="triangle absolute-triangle"></div>
+        </div> 
       </div>
     </div>
-
   </main>
 
 </body>
