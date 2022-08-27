@@ -1,8 +1,10 @@
-This project includes my solution to challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges), which helps me improve my coding skills and understand frontend workflow.
+# Frontend Mentor Exercise
 
-# Challenges
+## About this repo
 
-#### Newbie
+This repository contains my solution to challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges). I use Frontend Mentor to study and practice HTML, CSS and JavaScript.
+
+## HTML&CSS
 
 - [QR code component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/01%20qr-code-component)
 - [NFT preview card component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/02%20nft-preview-card-component)
@@ -15,8 +17,7 @@ This project includes my solution to challenges from [Frontend Mentor](https://w
 - [Single price grid component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/09%20single-price-grid-component)
 - [Huddle landing page with a single introductory section](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/12%20huddle-landing-page-with-single-intro)
 
-#### Junior
 - [Testimonials grid section](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/10%20testimonials-grid-section)
 - [Fylo data storage component](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/11%20fylo-data-storage-component)
 
-#### Intermediate
+## JavaScript
