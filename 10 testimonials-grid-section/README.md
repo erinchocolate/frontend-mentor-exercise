@@ -22,8 +22,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/10%20testimonials-grid-section/%231)
-  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/10%20testimonials-grid-section/%232)
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/10%20testimonials-grid-section/src%231)
+  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/10%20testimonials-grid-section/src%232)
 
 - Live Site URL: [Testimonials grid section solution](https://erinchocolate10.netlify.app/)
 
