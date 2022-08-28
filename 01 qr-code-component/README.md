@@ -13,9 +13,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Link
+Link: [QR code component](https://erinchocolate1.netlify.app/)
 
-[QR code component](https://erinchocolate1.netlify.app/)
+![QR](https://github.com/erinchocolate/frontend-mentor-exercise/blob/master/01%20qr-code-component/screenshot.png)
 
 ## My process
 
