@@ -21,9 +21,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Link
-
-[NFT preview card component](https://erinchocolate2.netlify.app/)
+Link: [NFT preview card component](https://erinchocolate2.netlify.app/)
+![Screenshot](https://github.com/erinchocolate/frontend-mentor-exercise/blob/master/02%20nft-preview-card-component/screenshot.png)
+![Hover](https://github.com/erinchocolate/frontend-mentor-exercise/blob/master/02%20nft-preview-card-component/hover.png)
 
 ## My process
 
