@@ -23,8 +23,8 @@ Users should be able to:
 ### Link
 
 - Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component/%231)
-  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/06%20stats-preview-card-component/%232)
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/06%20stats-preview-card-component/src%231)
+  - [#2 solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/06%20stats-preview-card-component/src%232)
 
 - Live Site URL: [Stats preview card component](https://erinchocolate6.netlify.app/)
 
