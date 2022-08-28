@@ -24,8 +24,8 @@ Users should be able to:
 ### Link
 
 - Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/03%20order-summary-component/%231)
-  - [#2 soulution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/03%20order-summary-component/%232)
+  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/03%20order-summary-component/src%231)
+  - [#2 soulution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/03%20order-summary-component/src%232)
 
 - Live Site URL: [Order summary card](https://erinchocolate3.netlify.app/)
 
