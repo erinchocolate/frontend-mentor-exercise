@@ -22,8 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/12%20huddle-landing-page-with-single-intro/%231)
+- Solution URL: [Huddle landing page with single introductory section solution](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/12%20huddle-landing-page-with-single-intro/src)
 
 - Live Site URL: [Huddle landing page with single introductory section solution](https://erinchocolate12.netlify.app/)
 
