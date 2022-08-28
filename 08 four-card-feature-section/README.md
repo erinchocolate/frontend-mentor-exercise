@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/08%20four-card-feature-section/%231)
+- Solution URL: [Four card feature section](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/08%20four-card-feature-section/src)
 
 - Live Site URL: [Four card feature section](https://erinchocolate8.netlify.app/)
 
