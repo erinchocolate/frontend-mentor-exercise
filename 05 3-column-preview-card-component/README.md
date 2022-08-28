@@ -22,8 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/05%203-column-preview-card-component/%231)
+- Solution URL: [3-column preview card component](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/05%203-column-preview-card-component/src)
 
 - Live Site URL: [3-column preview card component](https://erinchocolate5.netlify.app/)
 
