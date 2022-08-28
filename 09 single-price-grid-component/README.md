@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/09%20single-price-grid-component)
+- Solution URL: [Single price grid component](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/09%20single-price-grid-component/src)
 
 - Live Site URL: [Single price grid component](https://erinchocolate9.netlify.app/)
 
