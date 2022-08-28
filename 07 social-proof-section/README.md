@@ -20,8 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/07%20social-proof-section/%231)
+- Solution URL: [Social proof section](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/07%20social-proof-section/src)
 
 - Live Site URL: [Social proof section](https://erinchocolate7.netlify.app/)
 
