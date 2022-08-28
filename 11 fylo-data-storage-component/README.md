@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-  - [#1 solution](https://github.com/erinchocolate/frontend-mentor-challenge/tree/master/11%20fylo-data-storage-component/%231)
+- Solution URL: [Fylo data storage component](https://github.com/erinchocolate/frontend-mentor-exercise/tree/master/11%20fylo-data-storage-component/src)
 
 - Live Site URL: [Fylo data storage component](https://erinchocolate11.netlify.app/)
 
